@@ -1,0 +1,8 @@
+.section{
+    position: relative; 
+    
+    height: 800px;
+    width:100%; 
+    background-color: #fdfdfd; 
+    opacity: 0;
+}

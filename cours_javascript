@@ -1,0 +1,76 @@
+//  Variables:  //
+object : le type object regroupe plusieurs types d'objets fréquemment utilisés, 
+principalement Object, Array, Date.
+ex:
+let exempleObjetPersonne = {
+	"nom": "Paul",
+	"age": 20,
+	"informations": ["information1", "information2"]
+}
+// On accède aux différents éléments avec nomDeLaVariable.nomDeLaClé
+console.log(exempleObjetPersonne.nom, " a ", exempleObjetPersonne.age, " ans");
+// Affichera "Paul a 20 ans"
+
+let date = new Date();
+// date sera égale à la date du jour
+
+string : pour les chaînes de caractères, c'est une séquence de caractères qui représente une valeur textuelle. 
+ex:
+let maChaineDeCaractereGuillemet = "Je m'appelle Paul."
+let maChaineDeCaractereApostropheEchappe = 'Je m\'appelle Paul.' // Echappement sur le '
+let maChaineDeCaractereGuillemetEchappe = "Je m'appelle \"Paul\"." // Echappement sur le "
+
+number : comprend tous les nombres réels et décimaux. Il faut cependant faire attention : 
+le typage simple des nombres en JavaScript est une exception. La plupart des autres langages, 
+avec un typage plus strict, différencient les nombres réels (int) et les décimaux (float, long, double).
+
+symbol : pour les symboles, est apparu avec ECMAScript 2015 (ES6). 
+Ce type représente des données immuables et uniques, permettant d'éviter les problèmes de doublons 
+dans certains cas (clés d'un objet, par exemple).
+
+null : un mot-clé spécial pour indiquer une valeur nulle au sens informatique. 
+Étant donné que JavaScript est sensible à la casse, seul null est une valeur correcte. 
+Toute autre manière de l'écrire (Null, NULL...) serait incorrecte.
+
+undefined : pour les valeurs non définies.
+
+boolean : ce type ne contient que deux valeurs : true (vrai) et false (faux). 
+Pour que cette valeur soit bien stockée comme un booléen, il ne faut pas l'entourer de guillemets ou autre. 
+C'est un type de données à part entière, et non une chaîne de caractères.
+
+//  Cast d'une variable  //
+Le cast d'une variable consiste à modifier une variable d'un type en une variable d'un autre type.
+ex:
+let exempleFloat = parseFloat("1.23");
+console.log(exempleFloat)
+// 1.23
+
+let exempleInt = parseInt("6");
+console.log(exempleInt)
+// 6
+
+let exempleInt2 = Number("6");
+console.log(exempleInt2)
+// 6
+
+let exempleString = exempleInt.toString();
+console.log(exempleString)
+// "6"
+
+let exempleString2 = String(exempleInt);
+console.log(exempleString2)
+// "6"
+
+
+// JavaScript, un langage à typage faible et dynamique //
+cela signifie qu'il n'est pas nécessaire de préciser le type des variables qu'on déclare.
+on pourra stocker différents types de valeurs dans une même variable au fil du temps. 
+Il est également possible de modifier le type d'une variable déjà définie lors de l'exécution d'un script.
+ex:
+let x = 10;
+console.log(typeof x);
+// Affichera "number"
+x = "10"; 
+console.log(typeof x);
+// Affichera "string"
+// Le type de la variable a été modifié dynamiquement.

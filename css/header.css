@@ -1,0 +1,17 @@
+.header{
+
+    position: fixed; 
+    top: 0px;
+    height: 50px;
+    width:100%; 
+    background-color: #393838; 
+    opacity: 1;
+}
+.spacer{
+    position: relative; 
+    display: inline-flex;
+    height: 80px;
+    width:100%; 
+    background-color: #cc5050; 
+    opacity: 0.5;
+}

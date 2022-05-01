@@ -1,0 +1,56 @@
+.scoreElt {
+    background-color: white;
+    border-radius: 12px;
+    
+}
+
+.scorePanel{
+     min-width: 50px; 
+     overflow: auto;
+     overflow-y: scroll;
+    
+ }
+
+ body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+/*-- pour scroll actif --*/
+.cadre-table-scroll {
+    display: inline-block;
+    
+
+  }
+  .is-Visible {
+    display: bloc;
+}
+.is-notVisible {
+    display: none;
+}
+
+.spacer{
+  display:  block;
+  width: 100%;
+  height: 20px;
+  z-index: 2;
+  background: white;
+}
+
+  .table-scroll thead th {
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  .stikyFooter  {
+    position: sticky;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .stikyHeader  {
+    position: sticky;
+    top: 0;
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    z-index: 2;
+  }
