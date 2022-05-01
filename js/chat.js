@@ -55,7 +55,7 @@ function  UserMessage (userName, msgDate, imgUrl, msg)
 //init du username
 initLocalUser();
 //si on clic sur le bouton d'envois
-document.getElementById('btnSendMsg').addEventListener("click",sendMsg);
+document.getElementById('btnSendMsg').addEventListener("click",sendMsg),true;
 
 function sendMsg(msg)
 {

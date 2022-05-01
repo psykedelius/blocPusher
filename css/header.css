@@ -8,8 +8,8 @@
     opacity: 1;
 }
 .spacer{
-    position: relative; 
-    display: inline-flex;
+    
+    display: inline-block;
     height: 80px;
     width:100%; 
     background-color: #cc5050; 

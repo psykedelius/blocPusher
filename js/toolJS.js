@@ -34,7 +34,7 @@ function updateScorePanel()
       var ul = document.getElementById('scorePanel');
       var li = document.createElement("li");
       var children = ul.children.length + 1
-      li.setAttribute("id", "element"+children)
+            li.setAttribute("id", "element"+children)
             li.appendChild(document.createTextNode("  "+rank+" - "+name +" "+score));
             
             li.style.listStyle = 'none';
@@ -45,7 +45,7 @@ function updateScorePanel()
             li.classList.add('scoreElt')
             ul.appendChild(li)
         }
-        var result  = Object.entries(scoreListe);
+        var result   = Object.entries(scoreListe);
         const sorted = result.sort(function(a, b) { return a[1] - b[1]; })
 
         

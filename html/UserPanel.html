@@ -11,17 +11,20 @@
 </head>
 <body >
     <div class="card text-center " style="height:100vh">
-      <!--spacer-->
+      <!--les onglets-->
       <div class="container-fluid p-0">
         <div class="row d-flex flex-column">
           <div class="card-header stikyHeader">
             <ul  class="nav nav-tabs card-header-tabs">
+              <!--userPanelScoreTab-->
               <li class="nav-item">
                 <a id="userPanelScoreTab" class="nav-link active" href="#">ScorePanel</a>
               </li>
+              <!--userPanelChatTab-->
               <li class="nav-item">
                 <a id="userPanelChatTab" class="nav-link" href="#">Chat</a>
               </li>
+              <!--disabled-->
               <li class="nav-item">
                 <a class="nav-link disabled" href="#">Disabled</a>
               </li>
@@ -85,11 +88,16 @@
     //on change la tronche de l'onglet
     if (contentToDisplayId == "chatTab")
     {
+      document.getElementById("userPanelScoreTab").classList.remove("hidden");
       document.getElementById("userPanelChatTab").classList.add("active");
+      document.getElementById("userPanelChatTab").classList.add("hidden");
       document.getElementById("userPanelScoreTab").classList.remove("active");
     }else{
-      document.getElementById("userPanelScoreTab").classList.add("active");
+      document.getElementById("userPanelScoreTab").classList.add("hidden");
       document.getElementById("userPanelChatTab").classList.remove("active");
+      document.getElementById("userPanelChatTab").classList.remove("hidden");
+      document.getElementById("userPanelScoreTab").classList.add("active");
+
     }
 
     //on change le contenu du body
@@ -111,9 +119,16 @@
     console.log("Prout");
   }
   const userPanelChatTab =  document.getElementById("userPanelChatTab");
-  userPanelChatTab.addEventListener('click',(e) => displayTab("chatTab"));
+  userPanelChatTab.addEventListener('click',(e) => {
+    e.stopPropagation();
+    displayTab("chatTab");
+  
+  });
 
   const userPanelScoreTab =  document.getElementById("userPanelScoreTab");
-  userPanelScoreTab.addEventListener('click',(e) => displayTab("scoreTab"));
+  userPanelScoreTab.addEventListener('click',(e) => {
+    e.stopPropagation();
+    displayTab("scoreTab")
+    });
 </script>
 </html>

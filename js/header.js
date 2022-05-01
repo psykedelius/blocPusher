@@ -11,11 +11,12 @@ var speed = 1;
 var snapValue = 5;
 window.onload = function() {            
 
-    setInterval(toggleHeader, 2);
+   // setInterval(toggleHeader, 2);
 }
 
 function toggleHeader() {
-  console.log(window.scrollY+ " <s> "+derniere_position_de_scroll_connue)
+  
+  //console.log(window.scrollY+ " <s> "+derniere_position_de_scroll_connue)
     //on cache
     if (window.scrollY>derniere_position_de_scroll_connue && window.scrollY>10)
     {
@@ -49,7 +50,7 @@ function toggleHeader() {
        // console.log("montre "+style.top+"  headerCurPos  " +headerCurPos)
     }
     style.top = headerCurPos+'px';
-    spacerElt.style.top = headerCurPos+'px';
+    //spacerElt.style.top = headerCurPos+'px';
   // faire quelque chose avec la position du scroll
 }
 
