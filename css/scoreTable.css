@@ -1,3 +1,10 @@
+
+.tabsContainer{
+  
+  top: 0px;
+  z-index: 3;
+}
+
 .scoreElt {
     background-color: white;
     border-radius: 12px;
@@ -6,17 +13,24 @@
 
 .scorePanel{
      min-width: 50px; 
-     overflow: auto;
-     overflow-y: scroll;
-    
+     
  }
 
- body {
-  overflow: hidden; /* Hide scrollbars */
+ /* Hide scrollbar for Chrome, Safari and Opera */
+.hideScrollBar::-webkit-scrollbar {
+  display: none;
 }
 
+/* Hide scrollbar for IE, Edge and Firefox */
+.hideScrollBar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
 /*-- pour scroll actif --*/
-.cadre-table-scroll {
+.-table-scroll {
     display: inline-block;
     
 
@@ -38,7 +52,7 @@
 
   .table-scroll thead th {
     position: sticky;
-    top: 0;
+    top: 20px;
     background-color: rgb(255, 255, 255);
   }
   .stikyFooter  {
@@ -49,7 +63,7 @@
   }
   .stikyHeader  {
     position: sticky;
-    top: 0;
+    top: 0px;
     background-color: rgb(216, 216, 216);
     text-align: center;
     z-index: 2;

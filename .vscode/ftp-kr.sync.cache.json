@@ -1,0 +1,611 @@
+{
+  "ftp://guillaumqi@ftp.cluster006.ovh.net:21": {
+    "www": {
+      "guillaumehardouin": {
+        "WIP": {
+          "socialGaming": {
+            "Nouveau dossier": {},
+            "chat.inc.php": {
+              "type": "-",
+              "size": 227,
+              "lmtime": 1649115840560,
+              "modified": false
+            },
+            "css": {
+              "body.css": {
+                "type": "-",
+                "size": 189,
+                "lmtime": 1653945343819,
+                "modified": false
+              },
+              "chat.css": {
+                "type": "-",
+                "size": 6219,
+                "lmtime": 1653182569105,
+                "modified": false
+              },
+              "chatbox.css": {
+                "type": "-",
+                "size": 915,
+                "lmtime": 1651795764285,
+                "modified": false
+              },
+              "footer.css": {
+                "type": "-",
+                "size": 141,
+                "lmtime": 1646693084710,
+                "modified": false
+              },
+              "header.css": {
+                "type": "-",
+                "size": 211,
+                "lmtime": 1652653674858,
+                "modified": false
+              },
+              "scoreTable.css": {
+                "type": "-",
+                "size": 1134,
+                "lmtime": 1653180364549,
+                "modified": false
+              },
+              "userInfoPanel.css": {
+                "type": "-",
+                "size": 2500,
+                "lmtime": 1653248069558,
+                "modified": false
+              },
+              "userPanel.css": {
+                "type": "-",
+                "size": 1568,
+                "lmtime": 1653179726839,
+                "modified": false
+              }
+            },
+            "db_connection.php": {
+              "type": "-",
+              "size": 674,
+              "lmtime": 1653168705755,
+              "modified": false
+            },
+            "html": {
+              "Formulaire.html": {
+                "type": "-",
+                "size": 4286,
+                "lmtime": 1650392403861,
+                "modified": false
+              },
+              "ScorePanel.html": {
+                "type": "-",
+                "size": 1566,
+                "lmtime": 1653956690157,
+                "modified": false
+              },
+              "UserInfoPanel.html": {
+                "type": "-",
+                "size": 2610,
+                "lmtime": 0,
+                "modified": false
+              },
+              "UserPanel copy.html": {
+                "type": "-",
+                "size": 5129,
+                "lmtime": 1651784098679,
+                "modified": false
+              },
+              "UserPanel.html": {
+                "type": "-",
+                "size": 4415,
+                "lmtime": 1653946015482,
+                "modified": false
+              },
+              "chat.html": {
+                "type": "-",
+                "size": 1776,
+                "lmtime": 1653246997049,
+                "modified": false
+              },
+              "chatBox.html": {
+                "type": "-",
+                "size": 3350,
+                "lmtime": 1651795735481,
+                "modified": false
+              },
+              "userInfoPanel.html": {
+                "type": "-",
+                "size": 2531,
+                "lmtime": 1653945307455,
+                "modified": false
+              }
+            },
+            "index.html": {
+              "type": "-",
+              "size": 5033,
+              "lmtime": 1653945906000,
+              "modified": true
+            },
+            "jquery": {
+              "connexion.php": {
+                "type": "-",
+                "size": 764,
+                "lmtime": 1654479108215,
+                "modified": false
+              },
+              "jquery.html": {
+                "type": "-",
+                "size": 6526,
+                "lmtime": 1655594076475,
+                "modified": false
+              },
+              "receive.php": {
+                "type": "-",
+                "size": 2158,
+                "lmtime": 1654644972313,
+                "modified": false
+              },
+              "script.js": {
+                "type": "-",
+                "size": 2320,
+                "lmtime": 1655594690736,
+                "modified": false
+              },
+              "store.php": {
+                "type": "-",
+                "size": 1742,
+                "lmtime": 1655757412911,
+                "modified": false
+              }
+            },
+            "js": {
+              "Formulaire.js": {
+                "type": "-",
+                "size": 5082,
+                "lmtime": 1650396809879,
+                "modified": false
+              },
+              "Non confirmé 227575.crdownload": {
+                "type": "-",
+                "size": 54,
+                "lmtime": 1655757902058,
+                "modified": true
+              },
+              "chat.js": {
+                "type": "-",
+                "size": 3646,
+                "lmtime": 1653183824451,
+                "modified": false
+              },
+              "dateManager.js": {
+                "type": "-",
+                "size": 449,
+                "lmtime": 1650841789730,
+                "modified": false
+              },
+              "globalVars.js": {
+                "type": "-",
+                "size": 683,
+                "lmtime": 1652651594392,
+                "modified": false
+              },
+              "header.js": {
+                "type": "-",
+                "size": 1971,
+                "lmtime": 1651780571127,
+                "modified": false
+              },
+              "simpleParallax.js-master.zip": {
+                "type": "-",
+                "size": 164439,
+                "lmtime": 1655757947767,
+                "modified": false
+              },
+              "test.js": {
+                "type": "-",
+                "size": 0,
+                "lmtime": 1650143503461,
+                "modified": false
+              },
+              "toolJS.js": {
+                "type": "-",
+                "size": 1855,
+                "lmtime": 1653956568495,
+                "modified": false
+              },
+              "userInfoPanel.js": {
+                "type": "-",
+                "size": 2696,
+                "lmtime": 1654127129180,
+                "modified": false
+              }
+            },
+            "php": {
+              "conn.php": {
+                "type": "-",
+                "size": 914,
+                "lmtime": 1654128492140,
+                "modified": false
+              }
+            },
+            "python": {
+              "main.py": {
+                "type": "-",
+                "size": 761,
+                "lmtime": 1650303894038,
+                "modified": false
+              }
+            },
+            "ressources": {
+              "Build": {
+                "Build.data.gz": {
+                  "type": "-",
+                  "size": 3054905,
+                  "lmtime": 1646612786621,
+                  "modified": false
+                },
+                "Build.framework.js.gz": {
+                  "type": "-",
+                  "size": 86452,
+                  "lmtime": 1646612786699,
+                  "modified": false
+                },
+                "Build.loader.js": {
+                  "type": "-",
+                  "size": 16394,
+                  "lmtime": 1646612785617,
+                  "modified": false
+                },
+                "Build.wasm.gz": {
+                  "type": "-",
+                  "size": 5325913,
+                  "lmtime": 1646612788617,
+                  "modified": false
+                },
+                "Builds.data.gz": {
+                  "type": "-",
+                  "size": 3077023,
+                  "lmtime": 1646184611084,
+                  "modified": false
+                },
+                "Builds.framework.js.gz": {
+                  "type": "-",
+                  "size": 86121,
+                  "lmtime": 1646184611176,
+                  "modified": false
+                },
+                "Builds.loader.js": {
+                  "type": "-",
+                  "size": 13403,
+                  "lmtime": 1646184609653,
+                  "modified": false
+                },
+                "Builds.wasm.gz": {
+                  "type": "-",
+                  "size": 5208593,
+                  "lmtime": 1646184613333,
+                  "modified": false
+                }
+              },
+              "Builds.loader.js": {
+                "type": "-",
+                "size": 13403,
+                "lmtime": 1646184609653,
+                "modified": false
+              },
+              "TemplateData": {
+                "favicon.ico": {
+                  "type": "-",
+                  "size": 13275,
+                  "lmtime": 1616871928000,
+                  "modified": false
+                },
+                "fullscreen-button.png": {
+                  "type": "-",
+                  "size": 175,
+                  "lmtime": 1616871930000,
+                  "modified": false
+                },
+                "progress-bar-empty-dark.png": {
+                  "type": "-",
+                  "size": 96,
+                  "lmtime": 1616871930000,
+                  "modified": false
+                },
+                "progress-bar-empty-light.png": {
+                  "type": "-",
+                  "size": 109,
+                  "lmtime": 1616871930000,
+                  "modified": false
+                },
+                "progress-bar-full-dark.png": {
+                  "type": "-",
+                  "size": 74,
+                  "lmtime": 1616871928000,
+                  "modified": false
+                },
+                "progress-bar-full-light.png": {
+                  "type": "-",
+                  "size": 84,
+                  "lmtime": 1616871930000,
+                  "modified": false
+                },
+                "style.css": {
+                  "type": "-",
+                  "size": 1382,
+                  "lmtime": 1646184610450,
+                  "modified": false
+                },
+                "unity-logo-dark.png": {
+                  "type": "-",
+                  "size": 1108,
+                  "lmtime": 1616871930000,
+                  "modified": false
+                },
+                "unity-logo-light.png": {
+                  "type": "-",
+                  "size": 1108,
+                  "lmtime": 1616871928000,
+                  "modified": false
+                },
+                "webgl-logo.png": {
+                  "type": "-",
+                  "size": 2031,
+                  "lmtime": 1616871930000,
+                  "modified": false
+                }
+              },
+              "index.html": {
+                "type": "-",
+                "size": 1333,
+                "lmtime": 1647215643949,
+                "modified": false
+              },
+              "picto": {
+                "android-chrome-192x192.png": {
+                  "type": "-",
+                  "size": 64434,
+                  "lmtime": 1653241736000,
+                  "modified": false
+                },
+                "android-chrome-512x512.png": {
+                  "type": "-",
+                  "size": 312199,
+                  "lmtime": 1653241736000,
+                  "modified": false
+                },
+                "apple-touch-icon.png": {
+                  "type": "-",
+                  "size": 57834,
+                  "lmtime": 1653241736000,
+                  "modified": false
+                },
+                "favicon-16x16.png": {
+                  "type": "-",
+                  "size": 929,
+                  "lmtime": 1653241736000,
+                  "modified": false
+                },
+                "favicon-32x32.png": {
+                  "type": "-",
+                  "size": 2840,
+                  "lmtime": 1653241736000,
+                  "modified": false
+                },
+                "favicon.ico": {
+                  "type": "-",
+                  "size": 15406,
+                  "lmtime": 1653241736000,
+                  "modified": false
+                },
+                "favicon_io.zip": {
+                  "type": "-",
+                  "size": 454725,
+                  "lmtime": 1653248951859,
+                  "modified": false
+                },
+                "pencil-square.svg": {
+                  "type": "-",
+                  "size": 578,
+                  "lmtime": 1651101610520,
+                  "modified": false
+                },
+                "site.webmanifest": {
+                  "type": "-",
+                  "size": 263,
+                  "lmtime": 1653241736000,
+                  "modified": false
+                },
+                "vortex-inc.png": {
+                  "type": "-",
+                  "size": 19914,
+                  "lmtime": 1652653055256,
+                  "modified": false
+                }
+              },
+              "webgl": {
+                "Build": {
+                  "webgl.data.unityweb": {
+                    "type": "-",
+                    "size": 982472,
+                    "lmtime": 1648417987707,
+                    "modified": false
+                  },
+                  "webgl.framework.js.unityweb": {
+                    "type": "-",
+                    "size": 85398,
+                    "lmtime": 1648417987477,
+                    "modified": false
+                  },
+                  "webgl.loader.js": {
+                    "type": "-",
+                    "size": 34850,
+                    "lmtime": 1648417987463,
+                    "modified": false
+                  },
+                  "webgl.wasm.unityweb": {
+                    "type": "-",
+                    "size": 5155635,
+                    "lmtime": 1648417987914,
+                    "modified": false
+                  }
+                },
+                "MyLoader.js": {
+                  "type": "-",
+                  "size": 40686,
+                  "lmtime": 1648417987559,
+                  "modified": false
+                },
+                "assets": {
+                  "css": {
+                    "reset.css": {
+                      "type": "-",
+                      "size": 308,
+                      "lmtime": 1648417987539,
+                      "modified": false
+                    },
+                    "style.css": {
+                      "type": "-",
+                      "size": 2397,
+                      "lmtime": 1648424230235,
+                      "modified": false
+                    }
+                  }
+                },
+                "index.html": {
+                  "type": "-",
+                  "size": 1885,
+                  "lmtime": 1648421048065,
+                  "modified": false
+                }
+              }
+            },
+            "studi": {
+              "documents": {
+                "Creer-un-site-web-HTML-CSS-Bootstrap_modeledecopiev2.docx": {
+                  "type": "-",
+                  "size": 53853,
+                  "lmtime": 1636199716529,
+                  "modified": false
+                },
+                "Evaluation-2_GDWFSHTMLCSSBOOTEXAIII1ACSS-Bootstrap.pdf": {
+                  "type": "-",
+                  "size": 773039,
+                  "lmtime": 1636199704549,
+                  "modified": false
+                },
+                "notice-devoirs.pdf": {
+                  "type": "-",
+                  "size": 4601423,
+                  "lmtime": 1636199835528,
+                  "modified": false
+                },
+                "textes_a_memoriser.docx": {
+                  "type": "-",
+                  "size": 19574,
+                  "lmtime": 1636355295142,
+                  "modified": false
+                }
+              },
+              "evaluation-01": {
+                ".gitattributes": {
+                  "type": "-",
+                  "size": 66,
+                  "lmtime": 1636405409362,
+                  "modified": false
+                },
+                "CSS": {
+                  "mainStyle.css": {
+                    "type": "-",
+                    "size": 2854,
+                    "lmtime": 1655758939478,
+                    "modified": false
+                  }
+                },
+                "JS": {},
+                "index copy.html": {
+                  "type": "-",
+                  "size": 3845,
+                  "lmtime": 1636404362610,
+                  "modified": false
+                },
+                "index.html": {
+                  "type": "-",
+                  "size": 12524,
+                  "lmtime": 1655760207806,
+                  "modified": false
+                },
+                "notes": {
+                  "type": "-",
+                  "size": 7944,
+                  "lmtime": 1641759687423,
+                  "modified": false
+                },
+                "ressources": {
+                  "bg-intro.jpg": {
+                    "type": "-",
+                    "size": 547085,
+                    "lmtime": 1637014317792,
+                    "modified": false
+                  },
+                  "coupe-rase.jpg": {
+                    "type": "-",
+                    "size": 111961,
+                    "lmtime": 1637104284370,
+                    "modified": false
+                  },
+                  "headerLandscape.png": {
+                    "type": "-",
+                    "size": 37014,
+                    "lmtime": 1636922804703,
+                    "modified": false
+                  },
+                  "image 1.png": {
+                    "type": "-",
+                    "size": 171569,
+                    "lmtime": 1636217708126,
+                    "modified": false
+                  },
+                  "logo-GW.svg": {
+                    "type": "-",
+                    "size": 5105,
+                    "lmtime": 1641759687424,
+                    "modified": false
+                  },
+                  "porte-de-l-enfer.jpg": {
+                    "type": "-",
+                    "size": 25773,
+                    "lmtime": 1637103932477,
+                    "modified": false
+                  },
+                  "search.svg": {
+                    "type": "-",
+                    "size": 331,
+                    "lmtime": 1636331096491,
+                    "modified": false
+                  },
+                  "total-uganda.jpg": {
+                    "type": "-",
+                    "size": 79028,
+                    "lmtime": 1637104028921,
+                    "modified": false
+                  }
+                }
+              }
+            },
+            "testBDD.html": {
+              "type": "-",
+              "size": 571,
+              "lmtime": 1653942537757,
+              "modified": false
+            },
+            "testBDD.php": {
+              "type": "-",
+              "size": 4502,
+              "lmtime": 1654554276477,
+              "modified": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "$version": 1
+}

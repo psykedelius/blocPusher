@@ -1,36 +1,22 @@
 <?php
-function OpenCon()
- {
- $dbhost = "localhost";
- $dbuser = "root";
- $dbpass = "";
- $db = "chatmsg";
- $conn = new mysqli($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: %s\r". $conn -> error);
 
- printf("OpenCon()");
-
- return $conn;
- }
+ $dbhost = "guillaumqiadmin.mysql.db";
+ $dbuser = "guillaumqiadmin";
+ $dbpass = "Prout35000";
+ $db = "guillaumqiadmin";
  
-function CloseCon($conn)
- {
- $conn -> close();
- }
-
- function getval($query){
-    $dbhost = "localhost";
-    $dbuser = "root";
-    $dbpass = "";
-    $db = "chatmsg";
-   
-    $mysqli = new mysqli($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: %s\r". $conn -> error);
-    $mysqli->connect($dbhost, $dbuser, $dbpass, $db);
-    printf($query);
-    $result = $mysqli->query($query);
-    
-    $value = $mysqli->fetch_array;
-    $mysqli->close();
-    printf("getval()");
-    return $value;
-}
-?>
+try {
+    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $sql = "INSERT INTO socialData (userName, userStatus, userScore)
+    VALUES ('bob', 'onLine', '125')";
+    // use exec() because no results are returned
+    $conn->exec($sql);
+    echo "New record created successfully";
+  } catch(PDOException $e) {
+    echo $sql . "<br>" . $e->getMessage();
+  }
+  
+  $conn = null;
+  ?>

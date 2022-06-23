@@ -1,0 +1,60 @@
+body{
+    overflow: hidden;
+}
+
+.chatBox{
+    
+    min-height: calc(100vh - 150px);
+    background-color: aqua;
+    
+}
+.inputBox{
+    background-color: burlywood;
+    min-height:  150px;
+
+}
+.msgBoxList{
+    display: table;
+    width:100%;
+}
+.msgBox{
+    position: relative;
+    display: flex;
+    min-width:100%;
+    min-height: 40px ;
+    background-color: blueviolet;
+}
+
+.userName{
+    position: relative;
+    display: inline-flex;
+    bottom: 0px;
+    min-height:45%;
+    background-color: rgb(43, 122, 226);
+    
+}
+.userImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background: rgb(255, 255, 255);
+}
+.msgDate{
+    position: relative;
+    display: inline-flex;
+    
+    font-size: 15px;
+}
+.msgText{
+    position: relative;
+    display: inline-flex;
+    
+    font-size: 15px;
+}
+
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}

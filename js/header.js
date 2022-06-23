@@ -1,6 +1,6 @@
 
-
-const element  = document.querySelector('.header');
+console.log("pouet !!!!");
+const element  = document.getElementById('header');
 const spacerElt= document.getElementsByClassName('spacer');
 const style    = element.style;
 var derniere_position_de_scroll_connue = 0;
@@ -50,7 +50,7 @@ function toggleHeader() {
        // console.log("montre "+style.top+"  headerCurPos  " +headerCurPos)
     }
     style.top = headerCurPos+'px';
-    //spacerElt.style.top = headerCurPos+'px';
+    spacerElt.style.top = headerCurPos+'px';
   // faire quelque chose avec la position du scroll
 }
 
@@ -60,7 +60,7 @@ window.addEventListener('scroll', function(e) {
   if (!ticking) {
     window.requestAnimationFrame(function() {
         toggleHeader();
-      derniere_position_de_scroll_connue=window.scrollY;
+      derniere_position_de_scroll_connue=0;//window.scrollY;
       ticking = false;
     });
   }

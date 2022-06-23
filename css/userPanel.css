@@ -70,9 +70,6 @@
     font-size: 16px;
 }
 
-body {
-    /*overflow: hidden;*/ /* Hide scrollbars */
-  }
 
   .hidden{
       display: none;

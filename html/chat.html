@@ -1,27 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>ChatWindows</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <link rel='stylesheet' type='text/css' media='screen' href='../css/chat.css'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
-<body>
-    <div class="page-content page-container" id="page-content">
-        <div class="padding">
-            <div class="row container d-flex justify-content-center " >
-                <div class="col-md-12 ">
-                    <div class="box box-warning direct-chat direct-chat-warning">
-                        <div class="box-header with-border">
-                            <h3 class="box-title">Chat Messages</h3>
-                            <div class="box-tools pull-right"> <span data-toggle="tooltip" title="" class="badge bg-yellow" data-original-title="3 New Messages">20</span> <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i> </button> <button type="button" class="btn btn-box-tool" data-toggle="tooltip" title="" data-widget="chat-pane-toggle" data-original-title="Contacts"> <i class="fa fa-comments"></i></button> <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i> </button> </div>
+    
+
+    <div class="container-fluid justify-content-center" id="page-content">
+        
+            <div class="row   " >
+                <div class="col-12 " >
+                    <div class="box box-warning direct-chat direct-chat-warning " >
+                        <div class="box-header with-border fixed-top">
+                            <h3 class="box-title">Messages</h3>
                         </div>
                         <div class="box-body" id ="box-body">
                             <!-- generated content by chat.js-->
@@ -29,7 +17,7 @@
                         <div class="box-footer">
                             <form action="#" method="post">
                                 <div class="input-group"> 
-                                    <input type="text" name="message" placeholder="Type Message ..." class="form-control"> 
+                                    <input id="inputMsg" type="text" name="message" placeholder="Type Message ..." class="form-control"> 
                                     <span class="input-group-btn"> 
                                         <button id="btnSendMsg" type="button" class="btn btn-warning btn-flat">Send</button> 
                                     </span> 
@@ -39,11 +27,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        
     </div>
-    <?php include 'db_connection.php';?>
-</body>
-<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
-<script src='../js/chat.js'></script>
+    <script type="text/javascript" src="../js/globalVars.js"></script>
+<script type="text/javascript" src='../js/chat.js'></script>
 
-</html>
